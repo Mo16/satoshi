@@ -1,0 +1,119 @@
+
+@font-face {
+    font-family: "proxon";
+    src: url("/newassets/PROXON.ttf");
+  }
+
+
+.search-section{
+    height: 100vh;
+    background-image: url("/images/search.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.landing{
+  background-image: url("/images/landing.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.mcaptext{
+    margin: 25px;
+}
+
+
+
+
+.center-horizontal{
+    text-align: center;
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 240px;
+
+}
+
+@media (max-width:768px) { 
+    .search {
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+
+      
+      }
+  }
+
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #cc0000;
+  border-right: none;
+  padding: 5px;
+  font-size: 35px;
+  height: 60px;
+  background-color: #1e1d1dc6;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #cc0000;
+  background: #1e1d1dc6;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.vertical-center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+
+
+
+.card-section{
+    padding: 40px;
+    margin: auto;
+}
+
+.jobs-card{
+    padding: 100px ;
+    background-color: #626060;
+    border-radius: 20px;    
+    border: 2px solid white;
+}
+
+.jobs-card a{
+    color: red;
+}
+.cent{
+    margin: auto;
+}
